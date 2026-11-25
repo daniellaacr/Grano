@@ -24,4 +24,6 @@ Experiencia digital de una cafetería de especialidad para pedidos y recogida en
 
 **Figma:** https://www.figma.com/proto/YiqmKiLrTfqVv3KfCceECd/Grano-Design-v1.1?node-id=0-1&t=xPGbuelnoTPZUCLt-1.
 
+**Figma design:** https://www.figma.com/design/YiqmKiLrTfqVv3KfCceECd/Grano-Design-v1.1?node-id=0-1&t=xPGbuelnoTPZUCLt-1
+
 **Con más tiempo:** mejoraría la simulación de líquidos, las pruebas automatizadas y la accesibilidad.
