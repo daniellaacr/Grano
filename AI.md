@@ -1,8 +1,27 @@
-# Uso de IA
-- ChatGPT: exploración de diseño, prototipos y generación del código React/TypeScript, CSS y recursos fotográficos mediante generación de imágenes.
-- Instrucciones clave de la candidata: «me gustaria que la pagina de cargando esten como cayendo granos de café»; «que la animacion de el vaso esta como sobresalida»; «mientras la persona vaya personalizando el vaso ... los ingredientes en tiempo real».
-- La candidata aprobó y refinó la cortina de granos, el volumen de las tarjetas y el tablero de barra basado en su experiencia previa.
-- El asistente generó los archivos; falta que la candidata revise, ejecute y documente aquí las correcciones que efectivamente haga a mano. No se atribuyen modificaciones manuales no verificadas.
-- Verificación: el entorno de generación no resuelve registry.npmjs.org; no se pudo instalar ni ejecutar el proyecto completo en su stack real. Completar la validación local antes de entregar.
+# Uso de inteligencia artificial — Grano
 
-- Revisión v1.1: la candidata probó la app localmente y solicitó que el vaso permanezca visible al desplazar las opciones; también pidió eliminar el subtítulo del menú y cambiar «A mi gusto» por «Personalizar». ChatGPT implementó los cambios; se mantiene pendiente su validación en la app completa.
+## Herramientas utilizadas
+
+- ChatGPT: exploración creativa, diseño de interfaces, generación de recursos gráficos, desarrollo de código y documentación.
+- Figma: organización y presentación del diseño visual.
+
+## Instrucciones clave
+
+1. Diseñar una experiencia de cafetería con identidad editorial, fotografías realistas y bebidas que sobresalgan de sus tarjetas.
+2. Crear una animación de carga mediante una cortina de granos de café, con movimiento vertical y una distribución natural.
+3. Implementar un personalizador interactivo con líquidos animados y una vista permanente del vaso mientras el usuario modifica los ingredientes.
+
+## Mi participación
+
+- Definí la dirección creativa y seleccioné las referencias visuales.
+- Elaboré un boceto manual para comunicar el movimiento de los granos de café.
+- Revisé y dirigí las iteraciones de diseño e implementación.
+- Solicité la reorganización del personalizador para mantener visible el vaso mientras se desplazan las opciones.
+- Ajusté la jerarquía visual, los textos y la presentación de la marca mediante instrucciones específicas.
+- Organicé el diseño en Figma y realicé pruebas locales de compilación y funcionamiento.
+
+## Validación
+
+La compilación de producción se ejecutó correctamente mediante `npm run build`. También se realizaron pruebas funcionales de comunicación entre cliente y barra.
+
+Las decisiones visuales y las correcciones fueron dirigidas por mí, utilizando IA como herramienta de apoyo creativo y de implementación.
