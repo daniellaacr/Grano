@@ -1,0 +1,207 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Flat white",
+      "price": 62,
+      "category": "café",
+      "soldOut": false,
+      "image": "/assets/flat-white.webp",
+      "description": "Espresso sedoso y leche texturizada.",
+      "customizable": true
+    },
+    {
+      "id": 2,
+      "name": "Chai latte con leche de avena",
+      "price": 74,
+      "category": "té",
+      "soldOut": false,
+      "image": "/assets/chai-latte.webp",
+      "description": "Especias aromáticas y leche de avena.",
+      "customizable": true
+    },
+    {
+      "id": 3,
+      "name": "Espresso doble",
+      "price": 45,
+      "category": "café",
+      "soldOut": false,
+      "image": "/assets/espresso.webp",
+      "description": "Dos shots de espresso de especialidad.",
+      "customizable": true
+    },
+    {
+      "id": 4,
+      "name": "Cold brew de origen Chiapas con espuma de vainilla",
+      "price": 85,
+      "category": "café",
+      "soldOut": false,
+      "image": "/assets/cold-brew.webp",
+      "description": "Café de Chiapas, extracción en frío y espuma.",
+      "customizable": true
+    },
+    {
+      "id": 5,
+      "name": "Matcha latte",
+      "price": 78,
+      "category": "té",
+      "soldOut": false,
+      "image": "/assets/matcha-latte.webp",
+      "description": "Matcha suave y leche cremosa.",
+      "customizable": true
+    },
+    {
+      "id": 6,
+      "name": "Croissant de mantequilla",
+      "price": 48,
+      "category": "panadería",
+      "soldOut": false,
+      "image": "/assets/croissant.webp",
+      "description": "Capas doradas de mantequilla.",
+      "customizable": false
+    },
+    {
+      "id": 7,
+      "name": "Concha de vainilla",
+      "price": 32,
+      "category": "panadería",
+      "soldOut": true,
+      "image": "/assets/concha.webp",
+      "description": "Pan dulce mexicano de vainilla.",
+      "customizable": false
+    },
+    {
+      "id": 8,
+      "name": "Iced Latte",
+      "price": 78,
+      "category": "café",
+      "soldOut": false,
+      "image": "/assets/iced-latte.webp",
+      "description": "Espresso, leche y hielo. A tu manera.",
+      "customizable": true
+    }
+  ],
+  "orders": [
+    {
+      "id": 101,
+      "customer": "Mariana",
+      "items": [
+        {
+          "menuId": 1,
+          "qty": 2,
+          "notes": "extra caliente"
+        }
+      ],
+      "status": "preparando",
+      "createdAt": "2026-11-24T09:12:00"
+    },
+    {
+      "id": 102,
+      "customer": "José Guadalupe Hernández Villaseñor",
+      "items": [
+        {
+          "menuId": 4,
+          "qty": 1,
+          "notes": "poco hielo, sin vainilla, pero con espuma (¿se puede?)"
+        },
+        {
+          "menuId": 6,
+          "qty": 3,
+          "notes": ""
+        }
+      ],
+      "status": "recibido",
+      "createdAt": "2026-11-24T09:14:00"
+    },
+    {
+      "id": 103,
+      "customer": "Ana",
+      "items": [
+        {
+          "menuId": 3,
+          "qty": 1,
+          "notes": ""
+        }
+      ],
+      "status": "listo",
+      "createdAt": "2026-11-24T09:05:00"
+    },
+    {
+      "customer": "dani",
+      "items": [
+        {
+          "menuId": 5,
+          "qty": 1,
+          "notes": "Fría · Entera · Normal",
+          "options": {
+            "milk": "Entera",
+            "shots": 0,
+            "ice": "Normal",
+            "topping": "Sin topping",
+            "temperature": "Fría"
+          },
+          "unitPrice": 78
+        }
+      ],
+      "status": "listo",
+      "createdAt": "2026-11-25T03:58:41.807Z",
+      "id": 104
+    },
+    {
+      "customer": "asdfghjklqwetyuiopxcvbnm,sdfg   hhj",
+      "items": [
+        {
+          "menuId": 8,
+          "qty": 1,
+          "notes": "Pedido: khjkasdhjkjhkshshsdhjasdhshkhsadhsahjsasadhjdshjsadkjkjasdhhjkdashjdsahjsdahjksdahjksdhjdsahjkdaskjjsdahsdahkjsdakhjdakhjsdahjksdahjksdkahjkhjsadjhasdhjsdakksdashadjkhdjksahkjdhskjdhsajkdhskahdkahkjdshkdhskadhskjdshkjcndkj nxkjn kxnckjxznjkcnsakjncjs",
+          "unitPrice": 78
+        }
+      ],
+      "status": "recibido",
+      "createdAt": "2026-11-25T04:03:20.469Z",
+      "id": 105
+    },
+    {
+      "customer": "tu",
+      "items": [
+        {
+          "menuId": 8,
+          "qty": 1,
+          "notes": "Fría · Extra · 3 shot(s) · Sin hielo · Caramelo · nknknnjkj · Pedido: no",
+          "options": {
+            "milk": "Extra",
+            "shots": 3,
+            "ice": "Sin hielo",
+            "topping": "Caramelo",
+            "temperature": "Fría"
+          },
+          "unitPrice": 100
+        }
+      ],
+      "status": "recibido",
+      "createdAt": "2026-11-25T04:16:36.109Z",
+      "id": 106
+    },
+    {
+      "customer": "aaaaa",
+      "items": [
+        {
+          "menuId": 8,
+          "qty": 1,
+          "notes": "Fría · Entera · 1 shot(s) · Extra · Chocolate · Pedido: aa",
+          "options": {
+            "milk": "Entera",
+            "shots": 1,
+            "ice": "Extra",
+            "topping": "Chocolate",
+            "temperature": "Fría"
+          },
+          "unitPrice": 88
+        }
+      ],
+      "status": "listo",
+      "createdAt": "2026-11-25T04:48:40.047Z",
+      "id": 107
+    }
+  ]
+}
