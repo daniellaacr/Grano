@@ -4,7 +4,7 @@ Experiencia digital de una cafetería de especialidad para pedidos y recogida en
 
 **Stack:** React, TypeScript, Vite, CSS, SVG y JSON Server.
 
-**Requisitos:** Node.js 22 y npm.
+**Entorno probado:** Node.js v24.15.0 y npm.
 
 **Instalación:** `npm install`
 
@@ -20,10 +20,8 @@ Experiencia digital de una cafetería de especialidad para pedidos y recogida en
 
 **Supuestos:** recogida en barra, sin autenticación ni pagos reales; mock HTTP con 600 ms de latencia.
 
-**Tiempo dedicado:** 2 horas
+**Tiempo dedicado:** 2 horas.
 
-**Figma:** https://www.figma.com/proto/YiqmKiLrTfqVv3KfCceECd/Grano-Design-v1.1?node-id=0-1&t=xPGbuelnoTPZUCLt-1.
-
-**Figma design:** https://www.figma.com/design/YiqmKiLrTfqVv3KfCceECd/Grano-Design-v1.1?node-id=0-1&t=xPGbuelnoTPZUCLt-1
+**Figma:** [Diseño y exploración visual](https://www.figma.com/design/YiqmKiLrTfqVv3KfCceECd/Grano-Design-v1.1?node-id=0-1&t=xPGbuelnoTPZUCLt-1)
 
 **Con más tiempo:** mejoraría la simulación de líquidos, las pruebas automatizadas y la accesibilidad.
